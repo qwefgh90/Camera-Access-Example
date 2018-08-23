@@ -18,3 +18,4 @@ Camera access example with HTML5 on android, ios, desktop.
 
 - https://stackoverflow.com/questions/13198131/how-to-save-an-html5-canvas-as-an-image-on-a-server
 - https://developers.google.com/web/fundamentals/media/capturing-images/?hl=ko
+- https://gist.github.com/dergachev/7028596
