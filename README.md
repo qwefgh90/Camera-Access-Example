@@ -12,8 +12,8 @@ Camera access example with HTML5 on android, ios, desktop.
 1) run `pip install -U Flask`
 2) Downlaod all files to workspace
 3) Run `openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes` to make a certificate. (Optionally)
-4) Run python simple-https-server.py
-5) run following codes in terminal
+4) Run `python simple-https-server.py`
+5) Run following codes in terminal
 ```
   set FLASK_APP=upload-server.py
   flask run --host=0.0.0.0
