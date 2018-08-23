@@ -10,6 +10,6 @@ Camera access example with HTML5 on android, ios, desktop.
 # Setup
 
 1) Downlaod all files to workspace.
-2) Run `openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes` to make a certificate.
+2) Run `openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes` to make a certificate. (Optionally)
 3) Run python simple-https-server.py
 4) Browse https://[ip]:4443/camera.html 
