@@ -5,7 +5,7 @@ Camera access example with HTML5 on android, ios, desktop.
 
 - [python2](https://www.python.org/downloads/)
 - **server available to public access** or **local aera netowrk for all clients, server(wifi)**
-- On linux, install openssl. On windows, install git(for gitbash)
+- On linux, install openssl. On windows, install git(for gitbash) (Optionally)
 
 # Setup
 
