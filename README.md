@@ -9,7 +9,8 @@ Camera access example with HTML5 on android, ios, desktop.
 
 # Setup
 
-1) run `pip install -U Flask`
+1) Change ip address in camera.html
+1) Run `pip install -U Flask`
 2) Downlaod all files to workspace
 3) Run `openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes` to make a certificate. (Optionally)
 4) Run `python simple-https-server.py`
