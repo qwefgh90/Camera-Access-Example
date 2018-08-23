@@ -10,6 +10,12 @@
     <video id="player" controls autoplay></video>
     <button id="capture">Capture</button>
     <canvas id="snapshot" width=320 height=240></canvas>
+    <div>
+        <form method="POST" action="http://192.168.1.5:5000/" enctype="application/x-www-form-urlencoded">
+            <input type="text" name="file" id="image"/>
+            <input type="submit" value="전송"/>
+        </form>
+    </div>
     <script>
         var player = document.getElementById('player');
         var snapshotCanvas = document.getElementById('snapshot');
@@ -25,6 +31,7 @@
             // Draw the video frame to the canvas.
             context.drawImage(player, 0, 0, snapshotCanvas.width,
                 snapshotCanvas.height);
+            document.getElementById("image").value = snapshotCanvas.toDataURL();
         });
 
         navigator.mediaDevices.getUserMedia({ video: true })
